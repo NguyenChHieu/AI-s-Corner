@@ -38,8 +38,13 @@ public class GenAIController {
 //    }
 
     @GetMapping("generate-image")
-    public List<String> generateImages(HttpServletResponse response, @RequestParam String prompt) throws IOException {
-        var imgResponse = imageService.generateImage(prompt);
+    public List<String> generateImages(HttpServletResponse response,
+                                       @RequestParam String prompt,
+                                       @RequestParam(defaultValue = "hd") String quality,
+                                       @RequestParam(defaultValue = "1") int n,
+                                       @RequestParam(defaultValue = "1024") int width,
+                                       @RequestParam(defaultValue = "1024") int height) throws IOException {
+        var imgResponse = imageService.generateImage(prompt, quality, n, width, height);
 
         // streams url
         List<String> imgUrls = imgResponse.getResults().stream()

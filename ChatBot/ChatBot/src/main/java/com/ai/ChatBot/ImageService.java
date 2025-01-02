@@ -14,15 +14,19 @@ public class ImageService {
         this.openAiImageModel = openAiImageModel;
     }
 
-    public ImageResponse generateImage(String prompt){
+    public ImageResponse generateImage(String prompt,
+                                       String quality,
+                                       int n,
+                                       int width,
+                                       int height) {
         var response = openAiImageModel.call(
                 new ImagePrompt(prompt,
                         OpenAiImageOptions.builder()
                                 .withModel("dall-e-2")
-                                .withQuality("hd")
-                                .withN(2)
-                                .withHeight(256)
-                                .withWidth(256)
+                                .withQuality(quality)
+                                .withN(n)
+                                .withHeight(height)
+                                .withWidth(width)
                                 .build()
                 )
         );
