@@ -22,7 +22,7 @@ public class ChatService {
         ChatResponse response = chatModel.call(new Prompt(
                                                     prompt,
                                                     OpenAiChatOptions.builder()
-                                                            .withModel("gpt-3.5-turbo")
+                                                            .withModel("gpt-4o")
                                                             .withTemperature(0.4)
                                                             .build()
                                                 ));
