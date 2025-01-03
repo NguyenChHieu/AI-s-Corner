@@ -5,8 +5,14 @@
 Welcome to **SpringAI**, the web app that's smarter than your fridge! 🧠 Built with **React** (front-end) and **Spring Boot** (back-end), it packs three badass features:
 
 1. **Image Generator** - Turn your prompts into pixels. 🎨
+   ![image](https://github.com/user-attachments/assets/bdb006a1-9783-4e75-aa51-75cf927d489d)
+ 
 2. **AI Buddy** - Your new BFF powered by OpenAI. 🤖
+   ![image](https://github.com/user-attachments/assets/1fa066e9-e586-412b-a524-42c8fe974f48)
+
 3. **Recipe Generator** - Masterchef mode, activated! 🍳
+![image](https://github.com/user-attachments/assets/3309b3bc-3bec-4c39-baf9-b34f55335b83)
+![image](https://github.com/user-attachments/assets/c12c59f8-42b6-477f-8349-4f8d278864fe)
 
 ---
 
