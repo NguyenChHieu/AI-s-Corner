@@ -1,8 +1,8 @@
-# **SpringAI WebApp**
+# **AI's Corner**
 
 ## **Overview**
 
-Welcome to **SpringAI**, the web app that's smarter than your fridge! 🧠 Built with **React** (front-end) and **Spring Boot** (back-end), it packs three badass features:
+Welcome to **AI's Corner**, the web app that's smarter than your fridge! 🧠 Built with **React** (front-end) and **Spring Boot** (back-end), it packs three badass features:
 
 1. **Image Generator** - Turn your prompts into pixels. 🎨
 <p align="center">
