@@ -55,12 +55,12 @@ Welcome to **SpringAI**, the web app that's smarter than your fridge! 🧠 Built
    ```git clone <repo-url>```
    
 3. **Start the front-end:**
-   ```cd frontend
-  npm install && npm start```
+   ```cd frontend```
+  ```npm install && npm start```
   
 3. **Launch the back-end:**
-   ```cd backend
-mvn spring-boot:run```
+   ```cd backend```
+```mvn spring-boot:run```
 
 4. Boom! Hit up http://localhost:3000 and enjoy. 🚀
 
