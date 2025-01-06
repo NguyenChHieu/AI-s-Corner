@@ -79,4 +79,4 @@ Welcome to **AI's Corner**, the web app that's smarter than your fridge! 🧠 Bu
 4. Boom! Hit up http://localhost:3000 and enjoy. 🚀
 
 # Acknowledgments
-- Inspiration for the content was taken from [source]([https://github.com/example/project](https://www.youtube.com/watch?v=SDZk34mh7wM)) by Embarkx - great content!.
+- Inspiration for the content was taken from [source](https://www.youtube.com/watch?v=SDZk34mh7wM) by Embarkx - great content!.
